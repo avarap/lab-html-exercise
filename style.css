@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+.ph3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pv5 {
+padding-top: 4rem;
+padding-bottom: 4rem;
+}
+
+.tc {
+  text-align: center;
+}
+.mw6 {
+  max-width: 600px;
+}
+
 header > div {
     padding: 0 25px;
     display: flex;
@@ -31,3 +54,31 @@ header > div {
     width: 50px;
     margin-right: 1rem;
   }
+
+  .container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .s2header {
+    background-color: rgba(255,204,53,.4);
+  }
+
+  .f3 {
+    font-size: 1.5rem;
+}
+  .section3 {
+    display:flex;
+    justify-content:left;
+  }
+
+  .s3headings {
+    color: #ED1C24;    
+  }
+
+  .s3img {
+    width: 25px;
+  }
+
